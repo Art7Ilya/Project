@@ -1,3 +1,4 @@
+ /* Начал Ilya  */
 body {
     font-family: 'Montserrat';
     font-size: 16px;
@@ -118,7 +119,8 @@ a:hover {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
-
+/* Закончил Ilya */
+/* Начал Art */
 #navbar .navbar-collapse .dropdown-menu li a {
     font-family: Montserrat;
     font-style: normal;
@@ -245,7 +247,8 @@ input {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+/* Закончил Art */
+/* Начал Ilya */
 .support-main-bg video,
 .block-main-bg video {
     width: 100%;
@@ -371,7 +374,8 @@ video {
     min-height: 80px;
     height: 100%;
 }
-
+/* Закончил Ilya */
+/* Начал Art */
 .support-achievement:first-of-type .support-achievement-title {
     font-size: 48px;
     margin-top: -22px;
@@ -479,5 +483,5 @@ video {
     .col-sm-4 {
         width: 33.33333333%;
     }
-    
+    /* Закончил Art */
 }
