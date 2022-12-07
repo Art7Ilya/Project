@@ -1,4 +1,4 @@
- /* Начал Ilya  */
+/* Начал Ilya */
 body {
     font-family: 'Montserrat';
     font-size: 16px;
@@ -6,6 +6,9 @@ body {
     color: #333;
     background-color: #fff;
 }
+
+
+/*------------------navbar--------------------------*/
 
 #navbar .logo img {
     max-width: 50%;
@@ -168,6 +171,7 @@ a:hover {
     margin-right: -15px;
     margin-left: -15px;
 }
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -185,6 +189,10 @@ button,
 input {
     overflow: visible;
 }
+
+
+/*-----------------------header----------------*/
+
 .support-main,
 .block-main {
     overflow: hidden;
@@ -279,34 +287,6 @@ video {
     vertical-align: baseline;
 }
 
-.competency {
-    margin-bottom: 60px;
-}
-
-.competency-body {
-    font-weight: 500;
-    font-size: 16px;
-    color: #4f5a73;
-}
-
-.competency-time {
-    font-size: 32px;
-    margin-top: -20px;
-    color: #050c33;
-    font-weight: bold;
-}
-
-.competency-icon {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.competencies h2 {
-    font-weight: bold;
-    font-size: 42px;
-    color: #050c33;
-    margin: 0 0 20px;
-}
 .support-main h1,
 .block-main h1 {
     font-size: 52px;
@@ -374,8 +354,7 @@ video {
     min-height: 80px;
     height: 100%;
 }
-/* Закончил Ilya */
-/* Начал Art */
+
 .support-achievement:first-of-type .support-achievement-title {
     font-size: 48px;
     margin-top: -22px;
@@ -396,7 +375,8 @@ video {
     line-height: 1.25;
     color: rgba(255, 255, 255, .7);
 }
-
+/* Закончил Ilya */
+/* Начал Art */
 .competencies {
     padding: 100px 0;
     font-family: Montserrat;
@@ -416,75 +396,36 @@ video {
     color: #4f5a73;
 }
 
+.competency {
+    margin-bottom: 60px;
+}
 
+.competency-body {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+}
 
+.competency-time {
+    font-size: 32px;
+    margin-top: -20px;
+    color: #050c33;
+    font-weight: bold;
+}
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-    .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
-        padding-bottom: 0;
-        overflow: visible !important;
-    }
-    .navbar-collapse {
-        width: auto;
-        border-top: 0;
-        box-shadow: none;
-    }
-    .navbar-navigation {
-        flex-direction: row;
-        float: left;
-        margin: 0;
-    }
-    .navbar-toggle {
-        visibility: hidden;
-    }
-    .navbar-navigation>li {
-        float: left;
-    }
-    #navbar .navbar-navigation>li {
-        margin-right: 13px;
-        margin-bottom: 8px;
-    }
-    .navbar-navigation>li>a {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .container>.navbar-header,
-    .container-fluid>.navbar-header,
-    .container>.navbar-collapse,
-    .container-fluid>.navbar-collapse {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .navbar-navigation {
-        float: left;
-    }
-    .col-sm-4 {
-        width: 33.33333333%;
-    }
-    .col-sm-1,
-    .col-sm-2,
-    .col-sm-3,
-    .col-sm-4,
-    .col-sm-5,
-    .col-sm-6,
-    .col-sm-7,
-    .col-sm-8,
-    .col-sm-9,
-    .col-sm-10,
-    .col-sm-11,
-    .col-sm-12 {
-        float: left;
-    }
-    .col-sm-4 {
-        width: 33.33333333%;
-    }
-    /* Закончил Art */
-    .img-responsive,
+.competency-icon {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.competencies h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #050c33;
+    margin: 0 0 20px;
+}
+
+.img-responsive,
 .thumbnail>img,
 .thumbnail a>img,
 .carousel-inner>.item>img,
@@ -560,7 +501,8 @@ video {
     font-weight: bold;
     font-size: 42px;
 }
-
+/* Закончил Art */
+/* Начал Ilya */
 .expertise {
     padding: 380px 0 150px;
     position: relative;
@@ -615,7 +557,7 @@ video {
     font-family: Montserrat;
     background-color: rgb(254, 240, 214);
 }
-
+/* Закончил Ilya */
 .block-title-tariffs {
     margin-top: 65;
     margin-bottom: 65px;
@@ -628,5 +570,36 @@ video {
 .tariffs-row.row-flex {
     display: flex;
 }
-
+/* Начал Art */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left;
+    }
+    .col-md-offset-6 {
+        margin-left: 50%;
+    }
+}
+/* Закончил Art */
