@@ -846,8 +846,8 @@ video {
 }
 
 .keys2-picture {
-    height: 300px;
-
+    height: 150px;
+    width: 150px;
 }
 
 .keys2-wrapper {
@@ -855,7 +855,7 @@ video {
     position: relative;
     overflow: hidden;
     height: 475px;
-    color: #fff
+    color: rgb(0, 0, 0);
 }
 
 .keys2-header h2 {
