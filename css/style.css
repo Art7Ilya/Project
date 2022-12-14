@@ -530,6 +530,9 @@ video {
     max-width: 100%;
 }
 
+.expertise-item-body a{
+    color:#f14d34;
+}
 .expertise-img {
     padding: 0;
     position: absolute;
@@ -681,6 +684,9 @@ video {
     width: 475px;
     max-width: 100%;
     margin: 0 auto;
+}
+.tariff-dop a{
+    color:black;
 }
 
 .tariff-link {
@@ -1019,6 +1025,9 @@ video {
     margin: 0;
     font-size: 1.1em;
 }
+.panel-title a{
+    color:black;
+}
 
 .panel-btn {
     text-decoration: none;
@@ -1038,7 +1047,15 @@ video {
     padding: 0;
     margin-top: 10px;
 }
-
+.panel-body a{
+    color:black;
+}
+.faq-number{
+    color:grey;
+    font-family:"Montserrat" serif;
+    font-weight: 400;
+    font-size: 13px;
+}
 .panel {
     border-radius: 0;
     box-shadow: none;
@@ -1055,6 +1072,9 @@ video {
     width: 480px;
     max-width: 100%;
 }
+.contact-form input,.contact-form textarea{
+    background: rgba(0, 0, 0, .1);
+}
 
 footer {
     background: rgba(24, 26, 38);
@@ -1064,8 +1084,9 @@ footer {
     margin-top: 45px;
     margin-bottom: -600px important;
     border-top: 1px solid #e5e5e5;
-    height: 600px;
+    height: 900px;
 }
+
 
 .block-form-title {
     font-weight: bold;
@@ -1082,13 +1103,25 @@ footer {
     margin-bottom: 140px;
 }
 
-.block-form-contacts ul li a {
+.contacts-number{
     color: #fff;
     display: inline-block;
     text-decoration: none;
+    width: 1fr;
     padding-left: 40px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
+    position: relative;
+    line-height: 1.1;
+}
+.contacts-mail{
+    color: #fff;
+    display: inline-block;
+    text-decoration: underline;
+    width: 1fr;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 15px;
     position: relative;
     line-height: 1.1;
 }
@@ -1110,7 +1143,9 @@ textarea {
     padding: 26px 24px;
     color: #fff;
 }
-
+.privacy-a{
+    color:#f14d32;
+}
 .form-control {
     display: block;
     width: 100%;
@@ -1129,6 +1164,12 @@ textarea {
     -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.under-footer{
+    text-align:start;
+    white-space: pre-line;
+    display: inline-block;
+    margin-top: 160px;
 }
 
 #edit-field-telefon-0-value {
@@ -1158,6 +1199,7 @@ button.button--primary:hover {
     line-height: 1;
     transition: background 300ms;
 }
+
 
 @media (min-width: 768px) {
     .container {
