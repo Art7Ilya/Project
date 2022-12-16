@@ -670,8 +670,12 @@ video {
     left: 0;
     right: 0;
     bottom: 0;
-}
 
+}
+.tariff-footer-btn:hover{
+    background-color: #f14d34;
+    color: white;
+}
 .col-xs-12 {
     width: 100%;
 }
@@ -976,6 +980,7 @@ video {
 .slick-slider-two.slick-slider {
     width: 90% !important;
     border-right: 0px;
+    
 }
 
 .image-in-slide {
