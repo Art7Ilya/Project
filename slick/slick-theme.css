@@ -1,6 +1,5 @@
 @charset 'UTF-8';
 /* Slider */
-/* Art */
 .slick-loading .slick-list
 {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
@@ -113,9 +112,6 @@
 {
     content: '←';
 }
-/* Art */
-/* Ilya */
-
 
 /* Dots */
 .slick-dotted.slick-slider
@@ -206,4 +202,3 @@
     opacity: .75;
     color: black;
 }
-/* Ilya */
